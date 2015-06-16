@@ -29,7 +29,7 @@ gulp.task('watch', ['watchlist', 'webserver']);
 gulp.task('watchlist', function() {
   gulp.watch('./app/templates/*.hbs', ['handlebars']);
   gulp.watch('./app/sass/*.scss',     ['sass']);
-  gulp.watch('./bower.json',      ['bower']);
+  gulp.watch('./bower.json',          ['bower']);
   gulp.watch('./app/index.html',      ['hint:html']);
   gulp.watch('./app/js/*.js',         ['hint:js']);
 });

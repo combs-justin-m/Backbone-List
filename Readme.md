@@ -4,7 +4,7 @@ A simple page to excerise `Backbone Routers` and `Views`
 
 ### Deliverables
 
-> TBA
+> [http://development.jcombs-tiy-backbonelist.divshot.io](http://development.jcombs-tiy-backbonelist.divshot.io)
 
 ### Technologies Used
 

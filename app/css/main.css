@@ -5,7 +5,9 @@ VARIABLES
 MAIN
 ******************/
 body {
-  background-color: #F6F4F1; }
+  background-color: #F6F4F1;
+  position: relative;
+  min-height: 100vh; }
 
 .logo {
   height: 50px;
@@ -30,10 +32,12 @@ nav {
   width: 192px; }
 
 .spacer {
-  height: 40px; }
+  height: 80px; }
 
 .page-footer {
-  padding-top: 0 !important; }
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 .footer-copyright {
   background-color: #E0DCD9 !important;

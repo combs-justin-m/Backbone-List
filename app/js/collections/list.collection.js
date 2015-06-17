@@ -4,7 +4,8 @@
 
   app.Collections.List = Backbone.Collection.extend({
 
-    model: app.Models.Bookmark
+    model: app.Models.List,
+    url: 'http://tiy-515.herokuapp.com/collections/jcmodellist'
 
   });
 

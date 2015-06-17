@@ -1,3 +1,19 @@
-<h1>
-  {{value}}
-</h1>
+<h1>MODELS</h1>
+
+  <form id='modelList'>
+    <input type="text" placeholder="Name" id="name">
+    <input type="text" placeholder="Description" id="description">
+    <input type="text" placeholder="Price" id="price">
+    <input type="text" placeholder="picURL" id="picURL">
+    <input type="text" placeholder="picURL2" id="picURL2">
+    <input type="submit">
+  </form>
+
+{{#each list}}
+  <img src="{{url}}" alt="">
+
+  <ul data-id="{{_id}}"> <a href="#model/{{_id}}">{{name}}</a>
+      <li>{{price}}</li>
+  </ul>
+
+{{/each}}

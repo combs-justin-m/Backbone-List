@@ -19,7 +19,7 @@
 
     render: function() {
       var singleItem = this.collection.get(this.singleID);
-      console.log(singleItem)
+
       this.$el.html(this.template(singleItem.toJSON()));
     }
 

@@ -1,0 +1,42 @@
+/******************
+VARIABLES
+******************/
+/******************
+MAIN
+******************/
+body {
+  background-color: #F6F4F1; }
+
+.logo {
+  height: 50px;
+  margin-top: 5px; }
+
+.home {
+  font-size: 24px; }
+
+nav {
+  background-color: #E0DCD9;
+  margin-bottom: 60px; }
+  nav .nav-wrapper a {
+    color: #866E64; }
+
+.card-image {
+  margin: 0 auto; }
+
+.card .card-action {
+  height: 75px; }
+
+.portrait {
+  width: 192px; }
+
+.spacer {
+  height: 40px; }
+
+.page-footer {
+  padding-top: 0 !important; }
+
+.footer-copyright {
+  background-color: #E0DCD9 !important;
+  color: #866E64 !important; }
+  .footer-copyright a {
+    color: #FFAB40; }

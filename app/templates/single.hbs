@@ -1,7 +1,42 @@
-{{!-- {{#each item}} --}}
 
-   <img src="{{url}}" alt="">
-    <p class="description">{{description}}</p>
-    <p class="price">{{price}}</p>
+<nav>
+  <div class="nav-wrapper">
+    <a href="https://www.martinguitar.com/" target="_blank" class="brand-logo center"><img src="images/martinlogo.png" class="logo"></a>
+    <div class="container"><ul class="left">
+      <li><a href="#" class="home">Home</a></li>
+    </div>
+  </div>
+</nav>
 
-{{!-- {{/each}} --}}
+{{!-- <a href="#"><h2>Home</h2></a>
+
+  <img src="{{url2}}" class="image2">
+  <p class="description">{{description}}</p>
+  <p class="price">{{price}}</p>
+ --}}
+<div class="container">
+  <div class="col s12">
+    <div class="card">
+      <div class="card-image">
+        <a href="#model/{{_id}}"><img src="{{url2}}" class="image1"></a>
+      </div>
+      <div class="card-content">
+        <p>{{description}}</p>
+      </div>
+      <div class="card-action valign-wrapper">
+        <a href="#model/{{_id}}" class="valign">{{price}}</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="spacer"></div>
+
+<footer class="page-footer">
+  <div class="footer-copyright">
+    <div class="container">
+    All images, names, and descriptions property of C.F. Martin & Co., Inc., © 2013 | All rights reserved -
+    <a href="https://www.martinguitar.com/component/content/article.html?id=220">Privacy Policy</a>
+    </div>
+  </div>
+</footer>

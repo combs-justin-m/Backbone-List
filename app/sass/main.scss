@@ -1,0 +1,64 @@
+/******************
+VARIABLES
+******************/
+$tan: #F6F4F1;
+$darktan: #E0DCD9;
+$brown: #866E64;
+$gold: #FFAB40;
+/******************
+MAIN
+******************/
+
+body {
+  background-color: $tan;
+}
+
+.logo {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.home {
+  font-size: 24px;
+}
+
+nav {
+  background-color: $darktan;
+  margin-bottom: 60px;
+
+  .nav-wrapper {
+
+    a {
+      color: $brown;
+    }
+  }
+}
+
+.card-image {
+  margin: 0 auto;
+}
+
+.card .card-action {
+  height: 75px;
+}
+
+.portrait {
+  width: 192px;
+}
+
+.spacer {
+  height: 40px;
+}
+
+.page-footer {
+  padding-top: 0 !important;
+}
+
+.footer-copyright {
+  background-color: $darktan !important;
+  color: $brown !important;
+
+  a {
+    color: $gold;
+  }
+}

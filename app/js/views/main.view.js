@@ -22,7 +22,7 @@
 
     render: function() {
       this.$el.html(this.template({list: this.collection.toJSON() }));
-      console.log('rendered');
+
     },
 
     addModel: function(e) {

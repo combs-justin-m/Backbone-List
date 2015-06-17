@@ -1,19 +1,64 @@
-<h1>MODELS</h1>
 
-  <form id='modelList'>
+{{!--   <form id='modelList'>
     <input type="text" placeholder="Name" id="name">
     <input type="text" placeholder="Description" id="description">
     <input type="text" placeholder="Price" id="price">
     <input type="text" placeholder="picURL" id="picURL">
     <input type="text" placeholder="picURL2" id="picURL2">
     <input type="submit">
-  </form>
+  </form> --}}
 
-{{#each list}}
-  <img src="{{url}}" alt="">
 
-  <ul data-id="{{_id}}"> <a href="#model/{{_id}}">{{name}}</a>
-      <li>{{price}}</li>
-  </ul>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="https://www.martinguitar.com/" target="_blank" class="brand-logo center"><img src="images/martinlogo.png" class="logo"></a>
+      <div class="container"><ul class="left">
+        <li><a href="#" class="home">Home</a></li>
+      </div>
+    </div>
+  </nav>
 
-{{/each}}
+<div class="container">
+  <div class="row">
+
+  {{#each list}}
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image portrait">
+              <a href="#model/{{_id}}"><img src="{{url}}" class="image1"></a>
+            </div>
+            <div class="card-content">
+              <p>{{price}}</p>
+            </div>
+            <div class="card-action valign-wrapper">
+              <a href="#model/{{_id}}" class="valign">{{name}}</a>
+            </div>
+          </div>
+        </div>
+
+  {{/each}}
+
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+        All images, names, and descriptions property of C.F. Martin & Co., Inc., © 2013 | All rights reserved -
+        <a href="https://www.martinguitar.com/component/content/article.html?id=220">Privacy Policy</a>
+        </div>
+      </div>
+    </footer>
+
+
+{{!--   <a href="#model/{{_id}}"><img src="{{url}}" class="image1"></a>
+
+  <h3 data-id="{{_id}}">
+    <a href="#model/{{_id}}">{{name}}</a>
+  </h3>
+
+  <p class="price">{{price}}<p> --}}
+
